@@ -1,0 +1,27 @@
+body {
+        border: 1px solid black;
+        position: relative;
+      }
+
+.btn:focus{
+  background: red;
+  
+}
+
+.footer {
+  display:flex;
+  justify-content: between;
+  width: 100%;
+  bottom: -150%;
+  position: absolute;
+  
+}
+
+.left {
+  width: 100%;
+}
+
+.rigth{
+  text-align:  end;
+  width: 100%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <link type="text/css" href="style.css" rel="stylesheet"> 
+    <title>Hello World</title>
+
+    <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
+         so we use a script file. -->
+    <script src="app.js" defer></script>
+
+  </head>
+
+  <body>
+   <form id="formulario">
+    <label for="num1" class="items">Primer numero</label>
+    <input class="items" autofocus tabIndex="1" id="num1" name="num1" size="19"/>
+    <label for="num2" class="items">Segundo numero</label>
+    <input class="items" tabIndex="2" id="num2" name="num2" size="19"/>
+     
+    </form>
+  
+     <table>
+       <thead>
+          <tr>
+          <th>Operacion</th>
+          <th>Resultado</th>
+          </tr>
+       </thead>
+       <tbody id="body">
+       </tbody>
+  
+</table> 
+    
+    <div class="footer">
+    
+       <div class="left">
+         Limpiar
+       </div>
+      
+       <div class="rigth">
+         Calcular
+       </div>
+    </div>
+    
+    
+  </body>
+
+</html>
